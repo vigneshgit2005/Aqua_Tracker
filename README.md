@@ -52,19 +52,13 @@ Aqua Tracker aims to solve a common health issue — **inconsistent hydration ha
    * Average intake
 3. Visual insights help users improve consistency
 
----
 
-## 📸 Screenshots (Optional)
-
-*Add screenshots here if available*
-
----
 
 ## ⚙️ Installation & Setup
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/aqua-tracker.git
+git clone https://github.com/vigneshgit2005/Aqua_Tracker.git
 
 # Navigate to project folder
 cd aqua-tracker
