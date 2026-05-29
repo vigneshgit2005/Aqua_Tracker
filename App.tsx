@@ -216,7 +216,7 @@ const App: React.FC = () => {
             <div className="space-y-4">
               <div className="flex items-center gap-2 px-1">
                 <div className="w-1 h-3 bg-slate-900 rounded-full" />
-                <h3 className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-400">Performance Trends</h3>
+                <h3 className="text-[10px] font-bold uppercase tracking-[0.2em] text-slate-400">Performance Progress</h3>
               </div>
               <HistoryChart data={historyData} />
             </div>
@@ -271,7 +271,7 @@ const App: React.FC = () => {
             className={`flex-1 flex flex-col items-center gap-1.5 py-4 rounded-[1.5rem] transition-all duration-300 ${activeTab === 'trends' ? 'text-slate-900 bg-slate-50 shadow-inner' : 'text-slate-400 hover:text-slate-600'}`}
           >
             <History size={22} strokeWidth={activeTab === 'trends' ? 2.5 : 2} />
-            <span className={`text-[10px] font-bold uppercase tracking-[0.1em] ${activeTab === 'trends' ? 'opacity-100' : 'opacity-60'}`}>Trends</span>
+            <span className={`text-[10px] font-bold uppercase tracking-[0.1em] ${activeTab === 'trends' ? 'opacity-100' : 'opacity-60'}`}>Progress</span>
           </button>
         </div>
       </nav>
